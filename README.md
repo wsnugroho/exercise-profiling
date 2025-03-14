@@ -47,11 +47,30 @@ Setelah menganalisis hasil performance testing dan profiling, saya menerapkan be
 ## Test Plan 1 (/all-students)
 
 ![](./assets/test-plan-1.png)
+![](./assets/test-plan-1-jtl.png)
+![](./assets/test-plan-1-optimized.png)
+![](./assets/test-plan-1-optimized-jtl.png)
+
+Terdapat improvement pada endpoint `/all-student` dari 33000an ms menjadi 21000an ms.
 
 ## Test Plan 2 (/all-students-name)
 
 ![](./assets/test-plan-2.png)
+![](./assets/test-plan-2-jtl.png)
+![](./assets/test-plan-2-optimized.png)
+![](./assets/test-plan-2-optimized-jtl.png)
+
+Terdapat improvement pada endpoint `/all-student-name` dari 7800an ms menjadi 110an ms.
 
 ## Test Plan 3 (/highest-gpa)
 
 ![](./assets/test-plan-3.png)
+![](./assets/test-plan-3-jtl.png)
+![](./assets/test-plan-3-optimized.png)
+![](./assets/test-plan-3-optimized-jtl.png)
+
+Terdapat improvement pada endpoint `/highest-gpa` dari 100an ms menjadi 10an ms.
+
+### Kesimpulan
+
+Dapat dilihat bahwa dengan melakukan profiling dan optimasi, waktu eksekusi code mengalami penurunan drastis, sehingga meningkatkan performa dan membuat code berjalan lebih cepat.
